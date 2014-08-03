@@ -1,0 +1,342 @@
+/*
+full width extend
+*/
+body
+{
+  overflow-x: hidden;
+}
+
+.extendfull, .extendleft
+{
+  padding-left: 3000px;
+  margin-left: -3000px;
+}
+
+.extendfull, .extendright
+{
+  padding-right: 3000px;
+  margin-right: -3000px;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+#E4E0C1 = #E4E0C1;
+black = #333333;
+*/
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+
+@font-face {
+  font-family: "Lobster1.4";
+  src: url(../fonts/Lobster1.4.otf);
+}
+
+body {
+  font-family: "Roboto", helvetica, sans-serif;
+  background: url(../img/bg.png);
+  padding-bottom: 0;
+}
+
+.title {
+
+}
+
+.script-title {
+  font-family: "Lobster", "Lobster1.4", georgia, serif;
+  display: block;
+  margin-top: 10px;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 0.1em;
+}
+
+.main-title {
+  margin: 0 0 -0.05em 0;
+  font-size: 2em;
+  line-height: .5em;
+  text-align: center;
+  /*border: solid;*/
+}
+
+#main-title {
+  font-size: 2em;
+}
+.body-title {
+  font-family: "Roboto", helvetica, sans-serif;
+  font-size: 14px;
+}
+.jumbotron h2 {
+  text-transform: uppercase;
+  font-size: 0.62em;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+#hello {
+  display: inline;
+  margin-right: 20px;
+  font-size: 1.6em;
+  line-height: 0;
+}
+.jumbotron h1, h2 {
+  font-family: "Vollkorn", georgia, serif;
+}
+
+.jumbotron p {
+  font-size: 0.25em;
+  padding: 1em 15px 0 15px;
+}
+.jumbotron {
+  font-size: 50px;
+  margin: auto;
+  background-color: transparent;
+}
+span.dots {
+  font-family: "Lobster", "Lobster1.4", helvetica, sans-serif;
+  display: block;
+  line-height: 0;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+span.lower {
+  /*letter-spacing: inherit;*/
+  display: block;
+  margin: auto;
+  font-size: 14px;
+}
+
+/*span.left,
+span.right {
+  font-size:75px;
+  display: inline-block;
+  width: 35%;
+}*/
+span.left {
+  /*float: left;*/
+}
+
+span.right {
+  /*float: right;*/
+}
+
+#navbar {
+  background-color: rgba(51, 51, 51, 0.6);
+  background-image: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.475);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.475);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.475);
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-image: none;
+}
+#navbar a {
+  color: #E4E0C1;
+}
+#navbar a:hover {
+  color: #121212;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #E4E0C1;
+  background-color: #333;
+}
+
+.black-background {
+  background-color: #333;
+  margin: inherit 0 inherit 0;
+  color: #E4E0C1;
+}
+.main {
+  /*width: 960px;*/
+  clear:both;
+  width: 670px;
+  margin: auto;
+}
+
+article.entry {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.row h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.row svg {
+  display: block;
+  margin: 20px auto 10px auto;
+}
+
+.worksamples {
+  background-color: #333;
+  color: #E4E0C1;
+  display: inline-block;
+  width: 200px;
+  height: 170px;
+  margin: 10px;
+  font-size: 25px;
+  /*padding-top: 7%;*/
+  text-align: center;
+  line-height: .9em;
+}
+
+.worksamples:hover {
+
+}
+
+span.folio {
+margin-top: 50px;
+display: block;
+}
+
+#technical-stuff-holder {
+  background-color: #333;
+  position: relative;
+  height: 900px;
+}
+#technical-stuff-holder h3,
+#technical-stuff-holder h4 {
+  color: #E4E0C1;
+  text-transform: uppercase;
+  text-align: center;
+}
+#technical-stuff-holder h3 {
+  font-size: 50px;
+}
+#technical-stuff-holder h4 {
+  font-size: 30px;
+}
+.tech-stuff {
+  position: absolute;
+  top: 900px;
+  color: #333;
+  background-color: #E4E0C1;
+  border: solid #333 1px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 0.8em;
+}
+
+.tech-stuff p {
+  text-align: center;
+  margin-top: 35%;
+  font-size: 25px;
+  line-height: 0.9em;
+}
+
+.percent {
+  display: block;
+  font-size: 15px;
+}
+
+#php {
+  width: 120px;
+  height: 120px;
+}
+#indesign {
+  width: 255px;
+  height: 255px;
+}
+#css {
+  width: 300px;
+  height: 300px;
+}
+#photoshop {
+  width: 300px;
+  height: 300px;
+}
+#wordpress {
+  width: 255px;
+  height: 255px;
+}
+#mysql {
+  width: 150px;
+  height: 150px;
+}
+#illustrator {
+  width: 285px;
+  height: 285px;
+}
+#jscript {
+  width: 240px;
+  height: 240px;
+}
+#html {
+  width: 300px;
+  height: 300px;
+}
+
+/* screen width more than 1050, don't expand*/
+@media (min-width: 1100px) {
+  .jumbotron {
+    /*width: 1100px;*/
+  }
+
+}
+
+@media (max-width: 770px) {
+  .jumbotron p{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 870px) {
+  /*
+  Adjusts the responsiveness of the Blog page
+  */
+  article.entry {
+    width: 80%;
+  }
+}
+
+@media (max-width: 870px) {
+  /*
+  Adjusts the .worksamples on the Work page
+  */
+  .main {
+    width: 445px;
+  }
+
+  /*
+  Adjusts the Technical Stuff headers
+  */
+  #technical-stuff-holder h3 {
+    font-size: 30px;
+  }
+  #technical-stuff-holder h4 {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 470px) {
+  /*
+  Adjusts the .worksamples on the Work page
+  */
+  .main {
+    width: 200px;
+  }
+  
+  /*
+  Adjusts the Technical Stuff headers
+  */
+  #technical-stuff-holder h3 {
+    font-size: 20px;
+  }
+  #technical-stuff-holder h4 {
+    font-size: 12px;
+  }
+}
