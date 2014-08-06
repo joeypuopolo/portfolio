@@ -23,10 +23,13 @@ body
    Author's custom styles
    ========================================================================== */
 /*
+#142113 = nice green color!
+#4E9D2F = accent1 green
+#35BC55 = accent2 green
+
 #E4E0C1 = #E4E0C1;
 black = #333333;
 */
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
 
 @font-face {
   font-family: "Lobster1.4";
@@ -50,7 +53,7 @@ body {
   line-height: 1.5em;
   text-align: center;
   font-size: 1em;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.3em;
 }
 
 .main-title {
